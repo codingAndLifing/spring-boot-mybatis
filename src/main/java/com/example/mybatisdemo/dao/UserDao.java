@@ -10,10 +10,11 @@ import java.util.List;
  *
  * @Created on  2020/5/19 0019
  * @Author xumingming
- * @DDesrciption
+ * @Desrciption
  */
 @Mapper
 public interface UserDao {
+    //查询方法
     List<User> selectUser();
 
 
